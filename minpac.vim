@@ -14,6 +14,8 @@ if exists('*minpac#init')
 
   " ====================== SYNTAX HIGHLIGHT ==============
   call minpac#add('vim-jp/syntax-vim-ex')
+  
+  " need to configure properly
   call minpac#add('vim-syntastic/syntastic')
   let g:syntastic_ruby_checkers = ['rubocop']
   
@@ -23,6 +25,7 @@ if exists('*minpac#init')
   call minpac#add('taiansu/nerdtree-ag')
   call minpac#add('ivalkeen/nerdtree-execute')
   call minpac#add('low-ghost/nerdtree-fugitive')
+  call minpac#add('christoomey/vim-tmux-navigator')
   
   " ====================== SEARCH ========================
   call minpac#add('junegunn/fzf.vim')
@@ -37,7 +40,6 @@ if exists('*minpac#init')
   call minpac#add('airblade/vim-gitgutter')
   call minpac#add('junegunn/gv.vim')
   call minpac#add('gregsexton/gitv')
-
 
   " ===================== RAILS ==========================
   call minpac#add('tpope/vim-rails')
@@ -77,15 +79,14 @@ if exists('*minpac#init')
   call minpac#add('bkad/camelcasemotion')
   call minpac#add('rhysd/devdocs.vim')
   call minpac#add('vim-scripts/sudo.vim')
+  call minpac#add('AndrewRadev/splitjoin.vim')
   
   " call minpac#add('terryma/vim-multiple-cursors')
   " call minpac#add('vim-scripts/matchit.zip.git')
-  " call minpac#add('christoomey/vim-tmux-navigator')
   " call minpac#add('sjl/gundo.vim')
   " call minpac#add('skwp/YankRing.vim')
   " call minpac#add('vim-scripts/AutoTag.git')
  
-  " call minpac#add('AndrewRadev/splitjoin.vim')
   " call minpac#add('Raimondi/delimitMate')
   " call minpac#add('vim-scripts/AnsiEsc.vim.git')
 endif
