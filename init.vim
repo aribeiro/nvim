@@ -1,4 +1,4 @@
-packadd minpac
+source ~/.config/nvim/minpac.vim
 
 call minpac#init()
 
